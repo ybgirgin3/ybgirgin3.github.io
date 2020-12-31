@@ -1458,7 +1458,7 @@ main {
 i {
   font-size: 30px;
 }
-@media (max-width: 1570px) {
+@media (max-width: 1580px) {
   img {
     display: none;
   }
