@@ -181,6 +181,7 @@ header .navbar .dropdown-menu:before {
   }
 }
 
+
 header .navbar .dropdown-menu .dropdown-item:hover {
   background: #F73859;
   color: #fff;
@@ -356,6 +357,7 @@ main {
   .home-button {
     display: block;
   }
+
 }
 
 .portfolio-list {
@@ -1455,5 +1457,11 @@ main {
 
 i {
   font-size: 30px;
-
 }
+@media (max-width: 1570px) {
+  img {
+    display: none;
+  }
+}
+
+
