@@ -1,5 +1,0 @@
-<p> My name is Yusuf Berkay Girgin. I was born in 8 June 1998 in Sakarya / Turkey. I graduated from Electrical and Electronics Engineering in Fall 2021. </p>
-<p>I have improving myself in software since second year of the university</p>
-<p>I started as a hobby and now it's a pleasure to create projects</p>
-<p>My favorite fields are Computer Vision and Self Driving Cars. I also built a project using OpenCV and Raspberry PI which detects Fire and focusing it with servos </p>
-<p>...and I'm also freelancer developer in Turkey rigth now </p>
