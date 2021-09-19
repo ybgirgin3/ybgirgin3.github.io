@@ -1,0 +1,23 @@
+.subCardContainer {
+  box-shadow: 0px 10px 10px 1px rgb(153, 153, 153);
+  border-radius: 20px;
+  /* margin-left: 10%; */
+  width: "25rem";
+
+  transition: transform 0.3s, box-shadow 0.3s;
+
+  /* transition-duration: 0.3s; */
+}
+
+.subCardContainer:hover {
+  box-shadow: 0px 10px 10px 1px lightgray;
+  /* position: relative;
+  top: -2px; */
+  transform: translateY(-10px);
+  transition: transform 0.3s, box-shadow 0.3s;
+  /* transition-duration: 0.3s; */
+}
+
+.boss {
+  margin-top: 20px;
+}
