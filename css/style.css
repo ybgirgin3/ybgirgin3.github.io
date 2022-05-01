@@ -1,23 +1,19 @@
 * {
- /* positioning */
+  /* positioning */
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 
-
-  /* global theming */ 
+  /* global theming */
   background-color: #000;
   color: #fff;
 }
 
-
-html, body {
+html,
+body {
   height: 100vh;
   scroll-behavior: smooth;
-
 }
-
-
 
 /* nav config */
 .topnav {
@@ -42,9 +38,8 @@ html, body {
   color: #4caf50;
 }
 
-
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
 }
 
@@ -53,7 +48,9 @@ html, body {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
@@ -61,7 +58,9 @@ html, body {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -74,14 +73,11 @@ html, body {
   }
 }
 
-
-/* sections */ 
+/* sections */
 section {
   width: 100%;
   height: 100%;
- 
 }
-
 
 #home {
   background-color: #162225;
@@ -105,9 +101,9 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0,0,0,.4);
+  background-color: rgba(0, 0, 0, 0.4);
   /* background-color: transparent; */
-  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, .5);
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
 }
 
 .home-divs {
@@ -122,7 +118,6 @@ video {
   align-items: center;
 }
 
-
 #skills {
   width: 100%;
   height: 100%;
@@ -134,7 +129,7 @@ video {
 
 .about-divs {
   width: 50%;
-  height: 40px;;
+  height: 40px;
   position: relative;
 }
 
@@ -169,7 +164,7 @@ h2 {
 #list-container {
   background-color: transparent;
   width: 100%;
-  height: 100%;
+  height: 30%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -195,7 +190,7 @@ ul {
   background-color: transparent;
   margin-right: 100px;
 }
- li {
+li {
   background-color: transparent;
   line-height: 10px;
   list-style-type: '📍';
@@ -234,7 +229,7 @@ ul {
   box-shadow: 0px 0px 80px 70px black;
 }
 
-.proj-title{
+.proj-title {
   font-weight: bold;
   font-size: 30px;
   margin-bottom: 40px;
@@ -280,4 +275,3 @@ legend {
   text-decoration: none;
   color: purple;
 }
-
