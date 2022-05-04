@@ -20,7 +20,9 @@ body {
   overflow: hidden;
   background-color: transparent;
   position: fixed;
-  z-index: 2;
+  z-index: 9999;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
 }
 
 .topnav a {
